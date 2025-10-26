@@ -4,6 +4,7 @@ import Footer from "./Components/Footer/Footer.jsx";
 import AlertSection from "./Components/Main_Body/AlertSection.jsx";
 import SectionOne from "./Components/Main_Body/SectionOne.jsx";
 import SectionTwo from './Components/Main_Body/SectionTwo.jsx'
+import SectionThree from "./Components/Main_Body/SectionThree.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,6 +15,7 @@ function App() {
       <AlertSection />
       <SectionOne />
       <SectionTwo />
+      <SectionThree />
 
       <Footer />
     </>

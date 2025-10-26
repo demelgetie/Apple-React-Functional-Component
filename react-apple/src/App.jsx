@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Header from './Components/Header/Header.jsx'
 import Footer from './Components/Footer/Footer.jsx'
-import SectionOne from './Components/Main_Body/SectionOne.jsx'
+import AlertSection from './Components/Main_Body/AlertSection.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +10,7 @@ function App() {
     <>
      <Header />
      <Footer />
-     <Footer />
+     <AlertSection />
     </>
   )
 }

@@ -7,6 +7,7 @@ import SectionTwo from './Components/Main_Body/SectionTwo.jsx'
 import SectionThree from "./Components/Main_Body/SectionThree.jsx";
 import SectionFour from "./Components/Main_Body/SectionFour.jsx";
 import SectionFive from "./Components/Main_Body/SectionFive.jsx";
+import SectionSix from "./Components/Main_Body/SectionSix.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,7 +21,7 @@ function App() {
       <SectionThree />
       <SectionFour />
       <SectionFive />
-
+      <SectionSix />
       <Footer />
     </>
   );

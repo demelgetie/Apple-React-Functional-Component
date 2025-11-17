@@ -1,28 +1,24 @@
-
+import "./bootstrap.js";
 import "./bootstrap.css";
 import "./App.css";
-import Header from "./Components/Header/Header.jsx";
-import Footer from "./Components/Footer/Footer.jsx";
-import AlertSection from "./Components/Main_Body/AlertSection.jsx";
-import SectionOne from "./Components/Main_Body/SectionOne.jsx";
-import SectionTwo from "./Components/Main_Body/SectionTwo.jsx";
-import SectionThree from "./Components/Main_Body/SectionThree.jsx";
-import SectionFour from "./Components/Main_Body/SectionFour.jsx";
-import SectionFive from "./Components/Main_Body/SectionFive.jsx";
-import SectionSix from "./Components/Main_Body/SectionSix.jsx";
+import { Route, Routes } from "react-router-dom";
+import Main_Body from "./Components/Main_Body/Main_Body";
+import SharedLayout from "./Components/pages/SharedLayout";
+import Iphone from "./Components/pages/Iphone";
+import NotFound from "./Components/pages/NotFound";
+import SingleProduct from "./Components/pages/SingleProduct.jsx";
 
 function App() {
   return (
     <>
-      <Header />
-      <AlertSection />
-      <SectionOne />
-      <SectionTwo />
-      <SectionThree />
-      <SectionFour />
-      <SectionFive />
-      <SectionSix />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<SharedLayout />}>
+          <Route path="/" element={<Main_Body />} />
+          <Route path="/iphone" element={<Iphone />} />
+          <Route path="/iphone/:pid" element={<SingleProduct />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
     </>
   );
 }

@@ -3,13 +3,13 @@ import React from "react";
 function SectionOne() {
   return (
     // <!-- First section starts here -->
-    <section class="first-hightlight-wrapper">
-      <div class="container">
-        <div class="new-alert">New</div>
+    <section className="first-hightlight-wrapper">
+      <div className="container">
+        <div className="new-alert">New</div>
 
-        <div class="title-wraper bold black">iPad Pro</div>
+        <div className="title-wraper bold black">iPad Pro</div>
 
-        <div class="links-wrapper">
+        <div className="links-wrapper">
           <ul>
             <li>
               <a href="">Learn more</a>
@@ -20,11 +20,11 @@ function SectionOne() {
           </ul>
         </div>
 
-        <div class="ipod-caption row">
-          <div class="col-sm-12 col-md-6 text-md-right">
+        <div className="ipod-caption row">
+          <div className="col-sm-12 col-md-6 text-md-right">
             iPad Pro available starting 3.25
           </div>
-          <div class="col-sm-12 col-md-6 text-md-left">
+          <div className="col-sm-12 col-md-6 text-md-left">
             Magic Keyboard coming in May
           </div>
         </div>

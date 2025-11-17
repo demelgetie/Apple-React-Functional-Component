@@ -29,7 +29,7 @@ function Header() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#">
+                <a className="nav-link js-scroll-trigger" href="/iphone/">
                   iphone
                 </a>
               </li>

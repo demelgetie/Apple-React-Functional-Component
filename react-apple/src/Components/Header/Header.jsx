@@ -17,7 +17,7 @@ function Header() {
           >
             ☰
           </button>
-          <a className="navbar-brand mx-auto" href="#">
+          <a className="navbar-brand mx-auto" href="/">
             <img src={logo} />
           </a>
 
@@ -34,27 +34,27 @@ function Header() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#">
+                <a className="nav-link js-scroll-trigger" href="/ipad/">
                   ipad
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#">
+                <a className="nav-link js-scroll-trigger" href="/watch/">
                   watch
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#">
+                <a className="nav-link js-scroll-trigger" href="/tv/">
                   tv
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#">
+                <a className="nav-link js-scroll-trigger" href="/music/">
                   Music
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#">
+                <a className="nav-link js-scroll-trigger" href="/support/">
                   Support
                 </a>
               </li>

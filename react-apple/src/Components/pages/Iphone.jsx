@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import img from "../../assets/images/home/IPhoneSe.jpeg";
-import SingleProduct from "./SingleProduct.jsx";
 
 function Iphone() {
   const [iphones, setIphones] = useState([]);
@@ -13,6 +11,8 @@ function Iphone() {
         setIphones(data);
       });
   }, []);
+
+  // console.log(iphones);
 
   return (
     <>
@@ -29,9 +29,6 @@ function Iphone() {
 
           {iphones.map((product, index) => {
             let productPage = "/iphone/" + product.product_name;
-            // let productPage = "/iphone/SingleProduct/";
-
-            // console.log(productPage);
 
             let productDiv = (
               <div
@@ -66,8 +63,8 @@ function Iphone() {
                   }`}
                 >
                   <div className="prodict-image">
-                    {/* <img src={product.product_img} alt="" /> */}
-                    <img src={img} alt="" />
+                    <img src={product.product_img} alt="" />
+                    
                   </div>
                 </div>
               </div>

@@ -1,5 +1,3 @@
-import "../../bootstrap.js";
-import "../../App.css";
 import AlertSection from "./AlertSection.jsx";
 import SectionOne from "./SectionOne.jsx";
 import SectionTwo from "./SectionTwo.jsx";

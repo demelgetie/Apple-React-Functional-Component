@@ -28,8 +28,8 @@ function Iphone() {
           </div>
 
           {iphones.map((product, index) => {
-            // let productPage = "/iphone/" + product.product_url;
-            let productPage = "/iphone/SingleProduct/";
+            let productPage = "/iphone/" + product.product_name;
+            // let productPage = "/iphone/SingleProduct/";
 
             // console.log(productPage);
 
@@ -79,7 +79,5 @@ function Iphone() {
     </>
   );
 }
-
-
 
 export default Iphone;

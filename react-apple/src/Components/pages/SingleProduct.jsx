@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+// import { img } from "../../assets/images/home/IPhoneSe.jpeg";
 
 function SingleProduct() {
   const { pid } = useParams();
@@ -10,7 +11,7 @@ function SingleProduct() {
       .then((res) => res.json())
       .then((data) => {
         const singleProduct = data.filter(
-          (item) => item.product_url === pid // or product_slug
+          (item) => item.product_name === pid // or product_slug
         );
         setProducts(singleProduct);
       });

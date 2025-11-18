@@ -6,7 +6,7 @@ function YoutubeVideos() {
 
 //   useEffect(() => {
 //     fetch(
-//       "https://www.googleapis.com/youtube/v3/search?key=AIzaSyBWn3xstxX1ygq0DRmnAHqAcCHT_3ZK0aQ&channelId=UCE_M8A5yxnLfW0KghEeajjw&part=snippet,id&order=date&maxResults=8"
+//       "https://www.googleapis.com/youtube/v3/search?key=zaSyBWn3xstxX1ygq0DRmnAHqAcCHT_3ZK0aQ&channelId=UCE_M8A5yxnLfW0KghEeajjw&part=snippet,id&order=date&maxResults=8"
 //     )
 //       .then((response) => response.json())
 //       .then((data) => {
@@ -15,6 +15,7 @@ function YoutubeVideos() {
 //   }, []);
 
   return (
+    AI
     <div className="allVideosWrapper">
       <div className="container">
         <div className="row h-100 align-items-center justify-content-center text-center">
@@ -56,8 +57,6 @@ function YoutubeVideos() {
 }
 
 export default YoutubeVideos;
-
-// KEY: = AIzaSyBWn3xstxX1ygq0DRmnAHqAcCHT_3ZK0aQ
 
 
 
